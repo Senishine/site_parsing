@@ -1,0 +1,482 @@
+[
+  {
+    "vacancy_name": "Data Analyst \\ Аналитик данных (BI, SQL, Python, Data Science)",
+    "min_salary": 170000,
+    "max_salary": 210000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/49881796?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Data Scientist (команда Поиска)",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/46048820?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Специалист по тестированию",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/40585500?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Python developer",
+    "min_salary": 3500,
+    "max_salary": null,
+    "currency": "USD",
+    "link": "https://spb.hh.ru/vacancy/52830122?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Аналитик данных",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/46241509?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Data-аналитик (Анализ цены)",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/53032262?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Специалист DevOps",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/51911001?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Scala разработчик",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/51882397?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "DevOps специалист (удалённая работа)",
+    "min_salary": 200000,
+    "max_salary": null,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/50931935?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Преподаватель курсов программирования (удалённо)",
+    "min_salary": null,
+    "max_salary": 100000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/53092413?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "QA engineer",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/50585453?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "QA специалист в команду Биллинга",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/47251783?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Junior разработчик Python Django",
+    "min_salary": 40000,
+    "max_salary": 80000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52203762?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Python разработчик",
+    "min_salary": null,
+    "max_salary": 380000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/49590587?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Junior Data Engineer (Python)",
+    "min_salary": 150000,
+    "max_salary": 190000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/50637406?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Python-разработчик (Django, DRF)",
+    "min_salary": 60000,
+    "max_salary": 150000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/39736489?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Разработчик Python удаленно",
+    "min_salary": 200000,
+    "max_salary": null,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52878410?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Программист Python",
+    "min_salary": 200000,
+    "max_salary": 270000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52545351?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Python разработчик (Middle\\Senior)",
+    "min_salary": 180000,
+    "max_salary": 350000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52029353?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Разработчик Python",
+    "min_salary": 120000,
+    "max_salary": null,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52839444?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Data Analyst \\ Аналитик данных (BI, SQL, Python, Data Science)",
+    "min_salary": 170000,
+    "max_salary": 210000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/49881796?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Python developer",
+    "min_salary": 3500,
+    "max_salary": null,
+    "currency": "USD",
+    "link": "https://spb.hh.ru/vacancy/52830122?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Data Scientist (команда Поиска)",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/46048820?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Data-аналитик (Анализ цены)",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/53032262?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "DevOps специалист (удалённая работа)",
+    "min_salary": 200000,
+    "max_salary": null,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/50931935?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Специалист DevOps",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/51911001?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Аналитик данных",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/46241509?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "QA специалист в команду Биллинга",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/47251783?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Преподаватель курсов программирования (удалённо)",
+    "min_salary": null,
+    "max_salary": 100000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/53092413?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Cистемный аналитик",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/50012340?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Scala разработчик",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/51882397?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "NodeJS (Backend) разработчик (Middle)",
+    "min_salary": 140000,
+    "max_salary": null,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52852430?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Junior разработчик Python Django",
+    "min_salary": 40000,
+    "max_salary": 80000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52203762?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Python разработчик",
+    "min_salary": null,
+    "max_salary": 380000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/49590587?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Веб-программист Python",
+    "min_salary": 35000,
+    "max_salary": 50000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/51975341?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Разработчик-Python (Django, DRF)",
+    "min_salary": 170000,
+    "max_salary": 220000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/50832752?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Junior Data Engineer",
+    "min_salary": 150000,
+    "max_salary": null,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52693378?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Junior Data Engineer (Python)",
+    "min_salary": 150000,
+    "max_salary": 190000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/50637406?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Разработчик Python",
+    "min_salary": 120000,
+    "max_salary": null,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52839444?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Программист Python",
+    "min_salary": 200000,
+    "max_salary": 270000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52545351?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Data Analyst \\ Аналитик данных (BI, SQL, Python, Data Science)",
+    "min_salary": 170000,
+    "max_salary": 210000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/49881796?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Data Scientist (команда Поиска)",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/46048820?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Специалист по тестированию",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/40585500?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Python developer",
+    "min_salary": 3500,
+    "max_salary": null,
+    "currency": "USD",
+    "link": "https://spb.hh.ru/vacancy/52830122?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Аналитик данных",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/46241509?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Data-аналитик (Анализ цены)",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/53032262?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Специалист DevOps",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/51911001?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Scala разработчик",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/51882397?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "DevOps специалист (удалённая работа)",
+    "min_salary": 200000,
+    "max_salary": null,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/50931935?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Преподаватель курсов программирования (удалённо)",
+    "min_salary": null,
+    "max_salary": 100000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/53092413?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "QA engineer",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/50585453?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "QA специалист в команду Биллинга",
+    "min_salary": null,
+    "max_salary": null,
+    "currency": null,
+    "link": "https://spb.hh.ru/vacancy/47251783?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Junior разработчик Python Django",
+    "min_salary": 40000,
+    "max_salary": 80000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52203762?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Python разработчик",
+    "min_salary": null,
+    "max_salary": 380000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/49590587?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Junior Data Engineer (Python)",
+    "min_salary": 150000,
+    "max_salary": 190000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/50637406?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Python-разработчик (Django, DRF)",
+    "min_salary": 60000,
+    "max_salary": 150000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/39736489?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Разработчик Python удаленно",
+    "min_salary": 200000,
+    "max_salary": null,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52878410?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Программист Python",
+    "min_salary": 200000,
+    "max_salary": 270000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52545351?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Python разработчик (Middle\\Senior)",
+    "min_salary": 180000,
+    "max_salary": 350000,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52029353?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  },
+  {
+    "vacancy_name": "Разработчик Python",
+    "min_salary": 120000,
+    "max_salary": null,
+    "currency": "руб.",
+    "link": "https://spb.hh.ru/vacancy/52839444?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=python",
+    "website": "https://spb.hh.ru"
+  }
+]
