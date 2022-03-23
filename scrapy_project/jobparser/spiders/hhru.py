@@ -7,7 +7,7 @@ class HhruSpider(scrapy.Spider):
     name = 'hhru'
     allowed_domains = ['hh.ru']
     start_urls = ['https://spb.hh.ru/search/vacancy?area=1&search_field=name&search_field=company_name&search_field=description&text=python',
-                  'https://spb.hh.ru/search/vacancy?area=2&search_field=name&search_field=company_name&search_field=description&text=python'
+                  'https://spb.hh.ru/search/vacancy?area=2&search_field=name&search_field=company_name&search_field=description&text=python']
 
     def parse(self, response: HtmlResponse):
         next_page = response.xpath("//a[@data-qa='pager-next']/@href").get()
