@@ -1,3 +1,6 @@
+import logging
+
+import pyasn1_modules.rfc7906
 from pymongo import MongoClient
 
 #
@@ -15,47 +18,59 @@ class JobparserPipeline:
         self.mongobase = client.python_vacancies_scrapy
 
     def process_item(self, item, spider):
-        if spider.name == 'hhru':
-            self.handle_hhru_salary(item)
-        else:
-            self.handle_superjob_salary(item)
-        collection = self.mongobase[spider.name]
-        collection.insert_one(item)
+        try:
+            if spider.name == 'hhru':
+                self.handle_hhru_salary(item)
+            else:
+                self.handle_superjob_salary(item)
+            print(f"item: {item}")
+            collection = self.mongobase[spider.name]
+            collection.insert_one(item)
+        except Exception as e:
+            logging.info('Error during processing item [item=%s, error=%s]', item, e)
         return item
 
-    @staticmethod
+
     def handle_hhru_salary(self, item):
-        if item['salary_lst_items'][0] == 'от':
-            item['salary_min'] = int(item['salary_lst_items'][1])
-        if len(item['salary_lst_items']) == 4:
-            item['salary_currency'] = item['salary_list'][3]
-        if len(item['salary_lst_items']) >= 6:
-            item['salary_currency'] = item['salary_list'][5]
-        if item['salary_lst_items'][0] == 'до':
-            item['salary_max'] = int(item['salary_lst_items'][1])
-        if item['salary_lst_items'][2] == 'до':
-            item['salary_max'] = int(item['salary_lst_items'][3])
+        elems = []
+        for i in item['salary_lst_items']:
+            elems.append(i.strip().replace('\xa0', ''))
+        item['salary_lst_items'] = elems
+        if 4 < len(elems) < 7 and 'от' in elems[0]:
+            item['salary_min'] = int(''.join(elems[1].split()))
+            item['salary_currency'] = elems[3]
+            item['salary_max'] = None
+        if 4 < len(elems) < 7 and 'до' in elems[0]:
+            item['salary_max'] = int(''.join(elems[1].split()))
+            item['salary_currency'] = elems[3]
+            item['salary_min'] = None
+
+        if len(elems) >= 7:
+            item['salary_currency'] = elems[5]
+            item['salary_min'] = int(''.join(elems[1].split()))
+            item['salary_max'] = int(''.join(elems[3].split()))
         else:
             item['salary_min'] = None
             item['salary_max'] = None
             item['salary_currency'] = None
-            item['salary_tax'] = None
         return item
 
-    @staticmethod
+
     def handle_superjob_salary(self, item):
-        if len(item['salary_lst_items']) < 6:
+        for i in range(len(item['salary_lst_items'])):
+            item['salary_lst_items'][i] = item['salary_lst_items'][i].replace(u'\xa0', u'')
+        if len(item['salary_lst_items']) == 5:
             if 'от' in item['salary_lst_items'][0]:
-                item['salary_min'] = int(item['salary_lst_items'][2][:-3])
-                item['salary_currency'] = item['salary_lst_items'][2][-3:]
+                item['salary_min'] = int(item['salary_lst_items'][2][:-4])
+                item['salary_currency'] = item['salary_lst_items'][2][-4:]
             if 'до' in item['salary_lst_items'][0]:
-                item['salary_max'] = int(item['salary_lst_items'][2][:-3])
-                item['salary_currency'] = item['salary_lst_items'][2][-3:]
-        if len(item['salary_lst_items']) > 6:
+                item['salary_max'] = int(item['salary_lst_items'][2][:-4])
+                item['salary_currency'] = item['salary_lst_items'][2][-4:]
+        if len(item['salary_lst_items']) == 8:
             item['salary_min'] = int(item['salary_lst_items'][0])
             item['salary_max'] = int(item['salary_lst_items'][4])
             item['salary_currency'] = item['salary_lst_items'][6]
-        else:
+        if item['salary_lst_items'] == 'По договорённости':
             item['salary_min'] = None
             item['salary_max'] = None
             item['salary_currency'] = None
